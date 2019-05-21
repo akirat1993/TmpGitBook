@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "mathjax-commonhtml", "copy-code-button",
+    "-lunr","search-languages", "git-author",
+    "expandable-chapters", "navigator"
+  ],
+  "pluginsConfig": {
+      "searchLanguages": {
+          "lang": "jp"
+      },
+      "git-author":{
+          "position": "bottom",
+          "modifyTpl": "Last modified by {user} {timeStamp}",
+          "createTpl": "Created by {user} {timeStamp}",
+          "timeStampFormat": "YYYY-MM-DD HH:mm:ss"
+      }
+  }
+}
