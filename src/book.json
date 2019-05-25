@@ -8,6 +8,9 @@
       "searchLanguages": {
           "lang": "jp"
       },
+      "mathjax": {
+          "autoNumber": "all"
+      },
       "git-author":{
           "position": "bottom",
           "modifyTpl": "Last modified by {user} {timeStamp}",
